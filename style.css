@@ -1,0 +1,152 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+    }
+    /* fim do reset*/
+    
+    body {
+        font-family: 'Open Sans', sans-serif;
+    }
+    
+    li {
+        list-style: none;
+    }   
+    
+    .menu {
+        background-color: #58b5ec;
+        display: flex;
+        justify-content: flex-end;
+        position:fixed;
+        width: 100%;
+    }
+    
+    .lista-menu {
+        display: flex; 
+        justify-content: space-evenly;
+        width: 50%;
+        padding: 20px
+    }
+    
+    .menu a {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 25px;
+    color: rgb(0, 0, 2);
+    text-decoration: none;
+    }
+    
+    .intro {
+        background-color: #ed9696d5;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        height: 620px;
+        padding-top: 90px;
+        text-align: center;
+    }
+    
+    .intro figure {
+        margin-bottom: 20px;
+    }
+    
+    .intro img {
+        border-radius: 30%;
+    }
+    
+    .name {
+        font-weight: 700;
+        font-size: 36;
+        line-height: 33px;
+        color: #040601;
+    }
+    
+    .subtitle {
+        font-weight: 700;
+        font-size: 24px;
+        line-height: 23px;
+        color: #a68787;
+        margin-bottom: 20px;
+        margin-top: 10px;
+    }
+    
+    .aboutme {
+        font-family: 'ABeeZee', sans-serif;
+        font-weight: 400;
+        font-size: 16px;
+        color: #050505;
+        max-width: 490px;
+    }
+    .conteudo {
+        display: flex;
+        max-width: 800px;
+        margin: 0 auto;
+        padding: 70px 0;
+    }
+    
+    #experiencia {
+        background-color: #c1f5f6;
+    }
+    
+     section h1 {
+         font-size: 24px;
+         color: #4632e5;
+         margin-right: 30px;
+     }
+    
+     section h4 {
+    
+        font-weight: 700;
+        font-size: 16px;
+        color: #cfcccc;
+     }
+    
+     .item {
+         margin-bottom: 30px;
+     }
+    
+     section h4 a {
+        font-weight: 700;
+        font-size: 16px;
+        color: #0f0e0e;
+     }
+    
+     section a {
+        font-weight: 400;
+        font-size: 14px;
+     }
+    
+     section p {
+        font-weight: 400;
+        font-size: 14px;
+        color: #000000;
+     }
+    
+     #experiencia h5 {
+        font-weight: 400;
+        font-size: 16px;
+        color: #787777;
+     }
+    
+     #contato {
+        background-color: rgb(184, 166, 166);
+        font-weight: 700;
+        font-size: 14px;
+        height: 198px;
+        padding-left: 50px;
+        padding-top: 40px;
+        padding-bottom: 40px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+     }
+    
+     #contato a {
+         color: rgb(82, 82, 181);
+         text-decoration: none;
+     }
+    
+    #contato img {
+        padding-right: 5px;
+    }
